@@ -1,0 +1,41 @@
+body {
+  font-size: 14px;
+}
+
+.form-control {
+  padding: 12px 16px;
+}
+
+.form-control-bg {
+  color: white;
+  background-color: #383b3f;
+  border-color: #383b3f;
+}
+
+.form-control-bg:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.feather {
+  width: 19px;
+  height: 19px;
+}
+
+.sidebar {
+  position: fixed;
+  background-color: #333333;
+  font-weight: 500;
+  padding: 48px 0 0;
+  top: 0;
+  bottom: 0;
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #333333;
+}
+
+.nav-link.active {
+  color: blue;
+}

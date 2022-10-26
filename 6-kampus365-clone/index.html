@@ -1,0 +1,664 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yazılım Kursu - Yazılım Eğitimi | Kampus365</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/af5fe451c3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-xxl">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <svg class="header-logo mb-4" preserveAspectRatio="xMidYMid meet" data-bbox="0 -0.003 72 18.01"
+            viewBox="0 -0.003 72 18.01" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation"
+            aria-hidden="true">
+            <g>
+              <g>
+                <path d="M0 0v18a9 9 0 0 0 9-9V0z" fill="#FFFFFF" data-color="1"></path>
+                <path fill="#FFFFFF" d="M9 18h9L9 9v9z" data-color="1"></path>
+                <path fill="#FFFFFF" d="M27 0h-9L9 9h9l9-9z" data-color="1"></path>
+                <path fill="#FFFFFF" d="M18 18h9l-9-9v9z" data-color="1"></path>
+                <path d="M32.66.2h1.2v3.24L36.7.2h1.53L35.1 3.6l3.28 3.6h-1.56l-3-3.46V7.2h-1.2z" fill="#FFFFFF"
+                  data-color="2"></path>
+                <path d="M42.11 0h.1l3.29 7.2h-1.25l-.5-1.2h-3.18l-.5 1.22h-1.25zm1.25 5-1.2-2.89L41 5z" fill="#FFFFFF"
+                  data-color="2"></path>
+                <path d="M46.26 0h.1l3.22 3.56L52.8 0h.1v7.2h-1.18V2.83l-2.09 2.31h-.11l-2.08-2.31V7.2h-1.18z"
+                  fill="#FFFFFF" data-color="2"></path>
+                <path
+                  d="M54.22.2h2.18c1.71 0 2.72 1 2.72 2.32s-1 2.31-2.73 2.31h-1V7.2h-1.2zm2.11 3.67c1.06 0 1.58-.59 1.58-1.35s-.53-1.36-1.58-1.36h-.91v2.71z"
+                  fill="#FFFFFF" data-color="2"></path>
+                <path d="M60.08 4.51V.2h1.2v4.31a1.66 1.66 0 1 0 3.32 0V.2h1.2v4.31a2.86 2.86 0 0 1-5.72 0z"
+                  fill="#FFFFFF" data-color="2"></path>
+                <path
+                  d="m66.6 5.92.79-.64a2.24 2.24 0 0 0 2 1.09c.9 0 1.43-.42 1.43-1s-.72-1-1.47-1.26c-1-.39-2.15-.8-2.15-2.16C67.15.77 68 0 69.4 0a2.69 2.69 0 0 1 2.29 1.1l-.76.62A1.83 1.83 0 0 0 69.42 1c-.74 0-1.13.33-1.13.83s.59.85 1.47 1.2S72 3.9 72 5.24s-1.09 2.1-2.6 2.1a3.18 3.18 0 0 1-2.8-1.42z"
+                  fill="#FFFFFF" data-color="2"></path>
+                <path
+                  d="m32.37 17 .63-.7a2.42 2.42 0 0 0 1.71.76 1.4 1.4 0 0 0 1.51-1.35 1.37 1.37 0 0 0-1.47-1.36 1.93 1.93 0 0 0-.64.09l-.29-.21 1.54-2.42h-2.48v-1h4.21v.08l-1.69 2.62a2.27 2.27 0 0 1 1.91 2.21A2.36 2.36 0 0 1 34.78 18a3.38 3.38 0 0 1-2.41-1z"
+                  fill="#FFFFFF" data-color="2"></path>
+                <path
+                  d="M38.15 15.69a2.68 2.68 0 0 1 .6-1.62L41 10.84h1.2l-1.77 2.64h.31a2.33 2.33 0 0 1 2.36 2.26A2.4 2.4 0 0 1 40.57 18a2.36 2.36 0 0 1-2.42-2.31zm3.82 0a1.37 1.37 0 1 0-1.37 1.35 1.41 1.41 0 0 0 1.4-1.32z"
+                  fill="#FFFFFF" data-color="2"></path>
+                <path
+                  d="m43.83 17 .63-.71a2.52 2.52 0 0 0 1.76.76 1.4 1.4 0 0 0 1.5-1.36 1.34 1.34 0 0 0-1.38-1.34 2.64 2.64 0 0 0-1.58.62l-.56-.16.7-4h3.5v1h-2.72l-.34 1.93a2.45 2.45 0 0 1 1.13-.28 2.29 2.29 0 0 1 2.34 2.27A2.37 2.37 0 0 1 46.26 18a3.41 3.41 0 0 1-2.43-1z"
+                  fill="#FFFFFF" data-color="2"></path>
+                <path d="M62.94.2a.6.6 0 0 1 .59.59.59.59 0 0 1-.59.6.6.6 0 0 1-.59-.6.6.6 0 0 1 .59-.59z"
+                  fill="#FFFFFF" data-color="2"></path>
+                <path d="M62.94 2a.6.6 0 1 1-.59.59.6.6 0 0 1 .59-.59z" fill="#FFFFFF" data-color="2"></path>
+              </g>
+            </g>
+          </svg>
+
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item btn-group">
+              <button type="button" name="myButton" class="header-menu-button">Dev Kampüs</button>
+              <button type="button" name="myButton" class="header-menu-button">Ekstra Kampüs</button>
+              <button type="button" name="myButton" class="header-menu-button">İletişim</button>
+              <button type="button" name="myButton" class="header-menu-corparation">Kurumsal</button>
+              <button type="button" name="myButton" class="header-menu-login"><i
+                  class="fa-solid fa-circle-user fa-xl"></i>
+                <span class="login-text">Giriş Yap</span></button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="100000">
+          <img src="img/slider0.png" alt="slider 0">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="text-item">
+              <h1 class="fw-light line-height-header-text">Kampüs365 ve<br>
+                <span class="fw-bold line-height-header-text">Gazi Üniversitesi<br>
+                  İşbirliği ile<br>Yazılım Eğitimleri</span>
+              </h1>
+              <br>
+              <p class="fs-5 fw-light">Gazi Üniversitesi Uzaktan Eğitim Uygulama ve Araştırma<br> Merkezi İşbirliği
+                ile
+                4 Aylık uygulama ağırlıklı Front End<br> Developer veya C# Full Stack Developer programları %20<br>
+                indirimli!</p>
+
+              <button type="button" name="myButton" class="more-button">DAHA FAZLASI</button>
+              <button type="button" name="myButton" class="detail-button">BAŞVURU YAPIN</button>
+              <br>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="100000">
+          <img src="img/slider1.png" alt="slider 1">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="text-item">
+              <h1 class="fw-light line-height-header-text ">Dev Kampüs ile<br>
+                <span class="fw-bold line-height-header-text">4 Ayda Yazılımcı Olun<br></span><span class="fw-bold">Yeni
+                  İşinize
+                  Girin!</span>
+              </h1>
+              <br>
+              <p class="fs-5 fw-light">Uygulama ağırlıklı, son teknolojileri barındıran<br> yazılım
+                eğitimlerimizi
+                genç
+                nesille
+                tanıştıracak<br>
+                mülakat
+                garantili yazılımcı geliştirme programını <br>başlatıyoruz..</p>
+              <br>
+              <button type="button" name="myButton" class="more-button">DAHA FAZLASI</button>
+              <button type="button" name="myButton" class="detail-button">BAŞVURU YAPIN</button>
+
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="100000">
+          <img src="img/slider2.png" alt="slider 2">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="text-item">
+              <h1 class="fw-light line-height-header-text ">Dev Kampüs ile<br>
+                <span class="fw-bold line-height-header-text">Veri Bilimci
+                  <br></span><span class="fw-bold">Geliştirme Programı
+                </span>
+              </h1>
+              <br>
+              <p class="fs-5 fw-light">Geleceğin mesleği olan Veri Bilimi<br>
+
+                alanında sektör deneyimine sahip<br>
+
+                profesyonellerden eğitim alarak<br>
+
+                yeni kariyerinize başlayın!</p>
+              <br>
+              <button type="button" name="myButton" class="more-button">DAHA FAZLASI</button>
+              <button type="button" name="myButton" class="detail-button">BAŞVURU YAPIN</button>
+
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="100000">
+          <img src="img/slider3.png" alt="slider 3">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="text-item">
+              <h1 class="fw-light line-height-header-text ">Dev Kampüs ile<br>
+                <span class="fw-bold line-height-header-text">Front End Developer Olun
+                  <br></span><span class="fw-bold">Yeni İşinize
+                  Girin!</span>
+              </h1>
+              <br>
+
+              <p class="fs-5 fw-light">4 Aylık uygulama ağırlıklı Front End Developer<br> programı, son teknolojileri
+                barındıran yazılım<br> eğitimlerimizi genç nesille tanıştıracak mülakat<br> garantili yazılımcı
+                geliştirme programını başlatıyoruz.</p>
+              <br>
+              <br>
+              <button type="button" name="myButton" class="more-button">DAHA FAZLASI</button>
+              <button type="button" name="myButton" class="detail-button">BAŞVURU YAPIN</button>
+
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="100000">
+          <img src="img/slider4.png" alt="slider 4">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="text-item">
+              <h1 class="fw-light line-height-header-text ">İş Hayatına Hazırlayan
+                <br>
+                <span class="fw-bold line-height-header-text">İş Dünyası Eğitim Paketi
+                  <br></span><span class="fw-bold">Kısa Süreliğine ÜCRETSİZ</span>
+              </h1>
+              <br>
+              <p class="fs-5 fw-light">Türkiye’nin en büyük kurumsal eğitim platformu<br> Enocta işbirliğiyle
+                oluşturulan İş Dünyası Eğitim Paketi<br> en çok tercih edilen eğitimlerden derlendi.</p>
+              <br>
+              <button type="button" name="myButton" class="more-button">DAHA FAZLASI</button>
+              <button type="button" name="myButton" class="detail-button">BAŞVURU YAPIN</button>
+
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+
+    <section class="mini-info-1">
+      <div class="row w-100">
+        <div class="col-12 text-table">
+          <h1 class="text-center fw-light display-6">Dijital eğitimin mimarı Kampüs 365</h1>
+          <h1 class="text-center display-6 fw-semibold">Neden kariyerinizin bir parçası olmalı?</h1>
+          <div class="d-flex justify-content-center"><i class="fa-solid fa-play fa-2x fa-rotate-90"></i></div>
+          <p class="fs-5 text-center fw-normal">Profesyonel gelişim ve kariyer yolunda ihtiyaç duyacağınız<br>tüm
+            eğitimlere
+            Kampüs365
+            sayesinde
+            ulaşabilirsiniz.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="headline">
+      <div class="row">
+        <div class="column headline-column headline-box-1">
+          <h2 class="fw-light">Dev Kampüs'e Katılın<br>
+            <span class="fw-normal">Yazılım Geliştiricisi Olun</span>
+          </h2>
+          <p>Yazılım alanında Türkiye'nin uzman eğitim<br> kadrosuyla yazılım alanında iş bulmanızı<br> kolaylaştıracak
+            en
+            iddialı eğitimler Dev Kampüs'te</p>
+          <button type="button" name="myButton" class="headline-button-1">KAYIT OLUN</button>
+        </div>
+        <div class="column headline-column headline-box-2">
+          <img src="img/manset-1.png" alt="">
+        </div>
+        <div class="column headline-column headline-box-3">
+          <img src="img/manset-2.png" alt="">
+        </div>
+        <div class="column headline-column headline-box-4">
+          <h1 class="fw-light">Dev Kampüs'e Katılın</h1>
+          <h1>Veri Bilimci Olun</h1>
+          <p>Geleceğin mesleği olan Veri Bilimi alanında<br>
+            sektör deneyimine sahip profesyonellerden<br>
+            eğitim alarak yeni kariyerinize başlayın</p>
+          <button type="button" name="myButton" class="headline-button-1">KAYIT OLUN</button>
+        </div>
+        <div class="column headline-column headline-box-5">
+          <h1 class="fw-light">Ekstra Kampüs ile</h1>
+          <h1>İş Hayatına Hazır olun!</h1>
+          <p>Kariyer yolculuğunuz için gereken ve<br>
+            birbirinden değerli 300 Eğitim ile<br>
+            kariyerinizi güçlendirin.</p>
+          <button type="button" name="myButton" class="headline-button-1">KAYIT OLUN</button>
+        </div>
+        <div class="column headline-column headline-box-6">
+          <img src="img/manset-3.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="mini-info-2">
+      <div class="row w-100">
+        <div class="col-12 text-table">
+          <h1 class="text-center fw-light display-6">Eğitimlerimizi detaylı bir şekilde inceleyin,
+          </h1>
+          <h1 class="text-center display-6 fw-semibold">birlikte yeni kariyer yolculuğunuzu oluşturalım.</h1>
+          <div class="d-flex justify-content-center"><i class="fa-solid fa-play fa-2x fa-rotate-90"></i></div>
+          <p class="fs-5 text-center fw-normal">Çalışanların, yeni mezunların, üniversite öğrencilerinin kariyer
+            yolculuklarına eğitimlerimiz ile destek oluyoruz. <br>Siz de konusunda uzman, alanında tanınmış,
+            başarılarıyla
+            bilinen profesyoneller ve çözümler ile<br>
+            kariyer yolunuzu oluşturun.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-boxes">
+      <div class="row">
+        <div class="column info-boxes-column info-boxes-1 text-center"><svg class="info-boxes-svg"
+            preserveAspectRatio="xMidYMid meet" data-bbox="2 2 60 60.002" xmlns="http://www.w3.org/2000/svg" width="512"
+            viewBox="2 2 60 60.002" height="512" data-type="shape" role="presentation" aria-hidden="true"
+            fill="#006caa">
+            <g>
+              <path d="M15 52h-4a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1zm-1 4h-2v-2h2z"></path>
+              <path d="M55 44H45a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V45a1 1 0 0 0-1-1zm-1 10h-8v-8h8z">
+              </path>
+              <path d="M33 53h8v2h-8z"></path>
+              <path d="M33 47h8v2h-8z"></path>
+              <path d="M33 35h8v2h-8z"></path>
+              <path d="M33 29h8v2h-8z"></path>
+              <path d="M18 56h4v2h-4z"></path>
+              <path d="M18 52h4v2h-4z"></path>
+              <path d="M18 48h4v2h-4z"></path>
+              <path d="M18 40h4v2h-4z"></path>
+              <path
+                d="M61 2H18a2.347 2.347 0 0 0-2.14 1.443 2.042 2.042 0 0 0 .433 2.264l1.17 1.17A8.7 8.7 0 0 1 20 13v13.586L17.586 29H3a1 1 0 0 0-.781 1.625C4.671 33.69 6 36.092 6 40v18a3.87 3.87 0 0 0 4 4h44a6.006 6.006 0 0 0 6-6V11.123l1.97-7.881A1 1 0 0 0 61 2zM18.414 31h3.172L10 42.586 8.414 41zm2-2L36 13.414 37.586 15l-14 14zm-15.4 2h10.572l-7.638 7.638A14.42 14.42 0 0 0 5.013 31zM27 58a1.856 1.856 0 0 1-2 2H10a1.856 1.856 0 0 1-2-2v-8.773a5.83 5.83 0 0 0 2.991.773 6.417 6.417 0 0 0 4.859-2.279 4.367 4.367 0 0 1 6.949 0A6.615 6.615 0 0 0 27 49.959zm0-23v12.952a4.866 4.866 0 0 1-2.816-1.674 6.322 6.322 0 0 0-9.719 0A4.521 4.521 0 0 1 10.991 48 4.027 4.027 0 0 1 8 46.732v-3.318l1.293 1.293a1 1 0 0 0 1.414 0L24.414 31h4.109l-1.452 3.629A1 1 0 0 0 27 35zm31 21a4 4 0 0 1-4 4H28.494A4.157 4.157 0 0 0 29 58V40.568A4.324 4.324 0 0 1 32.31 39a4.527 4.527 0 0 1 3.478 1.722c.1.092.2.185.294.278H33v2h8v-.022a6.51 6.51 0 0 0 4.5-2.254 4.37 4.37 0 0 1 6.956 0A6.411 6.411 0 0 0 57.31 43a6.825 6.825 0 0 0 .69-.035zm.03-45.242A.984.984 0 0 0 58 11v29.947a4.374 4.374 0 0 1-4.156-1.667 6.327 6.327 0 0 0-9.728 0 4.363 4.363 0 0 1-6.943 0A6.427 6.427 0 0 0 32.31 37a5.674 5.674 0 0 0-3.31.975v-2.783l1.929-4.821A1 1 0 0 0 30 29h-3.586l13.293-13.293a1 1 0 0 0 0-1.414l-3-3a1 1 0 0 0-1.414 0L22 24.586V13a10.692 10.692 0 0 0-3.123-7.537l-1.184-1.186a.241.241 0 0 1 .066-.153A.325.325 0 0 1 18 4h41.719z">
+              </path>
+              <path d="M47 31a3 3 0 1 0-3-3 3 3 0 0 0 3 3zm0-4a1 1 0 1 1-1 1 1 1 0 0 1 1-1z"></path>
+              <path d="M52 18a4 4 0 1 0-4-4 4 4 0 0 0 4 4zm0-6a2 2 0 1 1-2 2 2 2 0 0 1 2-2z"></path>
+            </g>
+          </svg>
+          <br>
+          <br>
+          <h3>20+ Yıllık<br>
+            Deneyim</h3>
+        </div>
+        <div class="column info-boxes-column info-boxes-2 text-center">
+          <svg class="info-boxes-svg" preserveAspectRatio="none" data-bbox="0 0 472 480"
+            xmlns="http://www.w3.org/2000/svg" width="640" viewBox="0 0 472 480" height="640" data-type="shape"
+            role="presentation" aria-hidden="true" aria-labelledby="svgcid-cpoj8ju9kmy" fill="#419024">
+            <title id="svgcid-cpoj8ju9kmy"></title>
+            <g>
+              <path
+                d="M384 8a8 8 0 0 0-8-8H120a8.003 8.003 0 0 0-5.664 2.352l-80 80A7.999 7.999 0 0 0 32 88v312H0v40c.027 22.082 17.918 39.973 40 40h304c22.082-.027 39.973-17.918 40-40V160h88V32h-88zM112 27.313V80H59.312zM16 440v-24h288v24a39.604 39.604 0 0 0 8.207 24H40c-13.254 0-24-10.746-24-24zm352 0c0 13.254-10.746 24-24 24s-24-10.746-24-24v-32a8 8 0 0 0-8-8H48V96h72a8 8 0 0 0 8-8V16h240v16H144v128h224zm88-296H160V48h296zm0 0">
+              </path>
+              <path d="M64 112h16v16H64zm0 0"></path>
+              <path d="M96 136h16v16H96zm0 0"></path>
+              <path d="M336 384h16v16h-16zm0 0"></path>
+              <path d="M192 104h16v24h16V64h-16v24h-16V64h-16v64h16zm0 0"></path>
+              <path d="M256 128h16V80h16V64h-48v16h16zm0 0"></path>
+              <path
+                d="M320 80h3.055l13.785 27.574a8.335 8.335 0 0 0 14.32 0L364.945 80H368v48h16V72a8 8 0 0 0-8-8h-16a7.997 7.997 0 0 0-7.2 4.426L344 86.113l-8.8-17.687A7.997 7.997 0 0 0 328 64h-16a8 8 0 0 0-8 8v56h16zm0 0">
+              </path>
+              <path d="M408 128h32v-16h-24V64h-16v56a8 8 0 0 0 8 8zm0 0"></path>
+              <path d="M72 336h112v16H72zm0 0"></path>
+              <path d="M200 336h96v16h-96zm0 0"></path>
+              <path d="M72 368h80v16H72zm0 0"></path>
+              <path d="M168 368h32v16h-32zm0 0"></path>
+              <path d="M216 368h96v16h-96zm0 0"></path>
+              <path
+                d="m114.344 194.344-48 48a8.004 8.004 0 0 0 0 11.312l48 48a8.004 8.004 0 0 0 11.312 0l24-24a8.004 8.004 0 0 0 0-11.312L131.312 248l18.344-18.344a8.004 8.004 0 0 0 0-11.312l-24-24a8.004 8.004 0 0 0-11.312 0zm0 48a8.004 8.004 0 0 0 0 11.312L132.688 272 120 284.688 83.312 248 120 211.312 132.688 224zm0 0">
+              </path>
+              <path
+                d="M266.344 229.656 284.688 248l-18.344 18.344a8.004 8.004 0 0 0 0 11.312l24 24a8.004 8.004 0 0 0 11.312 0l48-48a8.004 8.004 0 0 0 0-11.312l-48-48a8.004 8.004 0 0 0-11.312 0l-24 24a8.004 8.004 0 0 0 0 11.312zM296 211.312 332.688 248 296 284.688 283.312 272l18.344-18.344a8.004 8.004 0 0 0 0-11.312L283.312 224zm0 0">
+              </path>
+              <path
+                d="M145.098 316.04A7.996 7.996 0 0 0 152 320h40a8.01 8.01 0 0 0 6.969-4.078l72-128a8.01 8.01 0 0 0-.067-7.961A8.013 8.013 0 0 0 264 176h-40a8.01 8.01 0 0 0-6.969 4.078l-72 128a8 8 0 0 0 .067 7.961zM228.68 192h21.601l-62.96 112h-21.602zm0 0">
+              </path>
+            </g>
+          </svg>
+          <br>
+          <br>
+          <h3>Kariyere Dönük<br>
+            Pratik Eğitimler</h3>
+        </div>
+        <div class="column info-boxes-column info-boxes-3 text-center">
+          <svg class="info-boxes-svg" preserveAspectRatio="none" data-bbox="2 2 60 60"
+            xmlns="http://www.w3.org/2000/svg" width="512" viewBox="2 2 60 60" height="512" data-type="shape"
+            role="presentation" aria-hidden="true" aria-labelledby="svgcid-90wspp-g66fsr" fill="#aa4334">
+            <title id="svgcid-90wspp-g66fsr"></title>
+            <g>
+              <path
+                d="M59 2H5a3 3 0 0 0-3 3v44a3 3 0 0 0 3 3h20.523l-3.452 8.628A1 1 0 0 0 23 62h18a1 1 0 0 0 .929-1.372L38.477 52H59a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3zM39.523 60H24.477l3.2-8h8.646zM60 49a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-5h56zM34 38h-7a1 1 0 0 1 0-2h4a1 1 0 0 0 1-1v-4a3.006 3.006 0 0 1 2-2.829zm4.579-4.093A1 1 0 0 0 39 34a1.02 1.02 0 0 0 .372-.071L44 32.077l4.628 1.852A1.02 1.02 0 0 0 49 34a1 1 0 0 0 .949-.684L51.721 28H52v14H36V28h.279l1.772 5.316a1 1 0 0 0 .528.591zM38.387 28H40.5l1.917 2.556-2.8 1.122zM43 28h2l-1 1.333zm2.583 2.556L47.5 28h2.113l-1.226 3.678zM54 42V28.171A3.006 3.006 0 0 1 56 31v11zm6 0h-2V31a5.006 5.006 0 0 0-5-5H35a5.006 5.006 0 0 0-5 5v3h-3a3 3 0 0 0 0 6h7v2H4V5a1 1 0 0 1 1-1h54a1 1 0 0 1 1 1z">
+              </path>
+              <path d="M31 46h2v2h-2z"></path>
+              <path
+                d="M57 14h-1V9a1 1 0 0 0-1-1h-3V7a1 1 0 0 0-1-1H37a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3h5a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1zm-12 8h-2v-2h2zm5 0h-3v-3a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v3h-3V12h12zm0-12H38V8h12zm6 8h-4v-8h2v5a1 1 0 0 0 1 1h1z">
+              </path>
+              <path d="M45 14h2v2h-2z"></path>
+              <path d="M41 14h2v2h-2z"></path>
+              <path d="M10 10h20v2H10z"></path>
+              <path d="M10 14h4v2h-4z"></path>
+              <path d="M16 14h14v2H16z"></path>
+              <path
+                d="M33 6H7a1 1 0 0 0-1 1v12a1 1 0 0 0 .638.932l18 7a1 1 0 0 0 1.069-1.639L20.414 20H33a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1zm-1 12H18a1 1 0 0 0-.707 1.707l3.637 3.637L8 18.316V8h24z">
+              </path>
+              <path d="M8 35H6v4a1 1 0 0 0 1 1h4v-2H8z"></path>
+              <path d="M13 38h2v2h-2z"></path>
+            </g>
+          </svg>
+          <br>
+          <br>
+          <h3>Sürekli Destek<br>
+            Kesintisiz Eğitim</h3>
+        </div>
+        <div class="column info-boxes-column info-boxes-4 text-center">
+          <svg class="info-boxes-svg" preserveAspectRatio="none" data-bbox="0 32 480 416" viewBox="0 32 480 416"
+            xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation" aria-hidden="true"
+            aria-labelledby="svgcid-vizuu8-441ntk" fill="#a57c00">
+            <title id="svgcid-vizuu8-441ntk"></title>
+            <g>
+              <path
+                d="M456 240h-8V72c-.026-22.08-17.92-39.974-40-40H72c-22.08.026-39.974 17.92-40 40v120h-8c-13.255 0-24 10.745-24 24v208c0 13.255 10.745 24 24 24h304a8 8 0 0 0 8-8c-.026-22.08-17.92-39.974-40-40h-24v-48h96v72c0 13.255 10.745 24 24 24h64c13.255 0 24-10.745 24-24V264c0-13.255-10.745-24-24-24zM176 424a8 8 0 0 1-8 8H24a8 8 0 0 1-8-8v-8h160v8zm0-24H16V216a8 8 0 0 1 8-8h144a8 8 0 0 1 8 8v184zm120 16a24.047 24.047 0 0 1 22.632 16H190.528a23.725 23.725 0 0 0 1.472-8v-8h104zm-104-16v-48h16v48h-16zm32 0v-48h32v48h-32zm144-64H192v-48h176v48zm0-72v8H192v-56a23.713 23.713 0 0 0-2.736-10.888c.12-.112.28-.144.392-.264l79.2-79.2a8 8 0 0 0-11.312-11.312l-79.2 79.2c-.192.2-.272.456-.44.664A23.699 23.699 0 0 0 168 192H48V72c0-13.255 10.745-24 24-24h336c13.255 0 24 10.745 24 24v168h-40c-13.255 0-24 10.745-24 24zm96 160a8 8 0 0 1-8 8h-64a8 8 0 0 1-8-8v-8h80v8zm0-24h-80V264a8 8 0 0 1 8-8h64a8 8 0 0 1 8 8v136z">
+              </path>
+              <path
+                d="M95.592 289.376a8 8 0 0 0-11.312 0l-33.936 33.936a8 8 0 0 0-.196 11.312 8 8 0 0 0 11.508 0l33.936-33.936c1.428-2.475-1.442-7.18 0-11.312z">
+              </path>
+              <path
+                d="M143.396 289.376a8.001 8.001 0 0 0-11.116 0l-33.936 33.936a8 8 0 0 0-.196 11.312 8 8 0 0 0 11.508 0l33.936-33.936a8 8 0 0 0-.196-11.312z">
+              </path>
+              <path
+                d="M317.46 114.344a8.001 8.001 0 0 0-11.116 0l-79.2 79.2a8 8 0 1 0 11.312 11.312l79.2-79.2a8 8 0 0 0-.196-11.312z">
+              </path>
+              <path
+                d="M440.772 311.032a8 8 0 0 0-11.116 0l-22.624 22.624a8 8 0 0 0-.196 11.312 8 8 0 0 0 11.508 0l22.624-22.624a8 8 0 0 0-.196-11.312z">
+              </path>
+              <path d="M240.16 304h-.08a8 8 0 0 0 .08 16 8 8 0 0 0 0-16z"></path>
+              <path d="M256 64h-32a8 8 0 0 0 0 16h32a8 8 0 0 0 0-16z"></path>
+            </g>
+          </svg>
+          <br>
+          <br>
+          <h3>Web'den, Cep'ten,<br>
+            Tabletten erişim</3>
+        </div>
+      </div>
+    </section>
+
+    <section class="mini-info-3">
+      <div class="row w-100">
+        <div class="col-12 text-table">
+          <p class="display-6 text-center fw-normal">2 milyondan fazla öğrencinin kullandığı,<br>
+            100'den fazla eğitim kurumunun tercihi
+          </p>
+          <br>
+          <br>
+
+          <svg class="alt-logo" preserveAspectRatio="xMidYMid meet" data-bbox="0 -0.003 72 18.01"
+            viewBox="0 -0.003 72 18.01" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation"
+            aria-hidden="true">
+            <g>
+              <g>
+                <path d="M0 0v18a9 9 0 0 0 9-9V0z" fill="#9437ff" data-color="1"></path>
+                <path fill="#9437ff" d="M9 18h9L9 9v9z" data-color="1"></path>
+                <path fill="#9437ff" d="M27 0h-9L9 9h9l9-9z" data-color="1"></path>
+                <path fill="#9437ff" d="M18 18h9l-9-9v9z" data-color="1"></path>
+                <path d="M32.66.2h1.2v3.24L36.7.2h1.53L35.1 3.6l3.28 3.6h-1.56l-3-3.46V7.2h-1.2z" fill="#383a3c"
+                  data-color="2"></path>
+                <path d="M42.11 0h.1l3.29 7.2h-1.25l-.5-1.2h-3.18l-.5 1.22h-1.25zm1.25 5-1.2-2.89L41 5z" fill="#383a3c"
+                  data-color="2"></path>
+                <path d="M46.26 0h.1l3.22 3.56L52.8 0h.1v7.2h-1.18V2.83l-2.09 2.31h-.11l-2.08-2.31V7.2h-1.18z"
+                  fill="#383a3c" data-color="2"></path>
+                <path
+                  d="M54.22.2h2.18c1.71 0 2.72 1 2.72 2.32s-1 2.31-2.73 2.31h-1V7.2h-1.2zm2.11 3.67c1.06 0 1.58-.59 1.58-1.35s-.53-1.36-1.58-1.36h-.91v2.71z"
+                  fill="#383a3c" data-color="2"></path>
+                <path d="M60.08 4.51V.2h1.2v4.31a1.66 1.66 0 1 0 3.32 0V.2h1.2v4.31a2.86 2.86 0 0 1-5.72 0z"
+                  fill="#383a3c" data-color="2"></path>
+                <path
+                  d="m66.6 5.92.79-.64a2.24 2.24 0 0 0 2 1.09c.9 0 1.43-.42 1.43-1s-.72-1-1.47-1.26c-1-.39-2.15-.8-2.15-2.16C67.15.77 68 0 69.4 0a2.69 2.69 0 0 1 2.29 1.1l-.76.62A1.83 1.83 0 0 0 69.42 1c-.74 0-1.13.33-1.13.83s.59.85 1.47 1.2S72 3.9 72 5.24s-1.09 2.1-2.6 2.1a3.18 3.18 0 0 1-2.8-1.42z"
+                  fill="#383a3c" data-color="2"></path>
+                <path
+                  d="m32.37 17 .63-.7a2.42 2.42 0 0 0 1.71.76 1.4 1.4 0 0 0 1.51-1.35 1.37 1.37 0 0 0-1.47-1.36 1.93 1.93 0 0 0-.64.09l-.29-.21 1.54-2.42h-2.48v-1h4.21v.08l-1.69 2.62a2.27 2.27 0 0 1 1.91 2.21A2.36 2.36 0 0 1 34.78 18a3.38 3.38 0 0 1-2.41-1z"
+                  fill="#383a3c" data-color="2"></path>
+                <path
+                  d="M38.15 15.69a2.68 2.68 0 0 1 .6-1.62L41 10.84h1.2l-1.77 2.64h.31a2.33 2.33 0 0 1 2.36 2.26A2.4 2.4 0 0 1 40.57 18a2.36 2.36 0 0 1-2.42-2.31zm3.82 0a1.37 1.37 0 1 0-1.37 1.35 1.41 1.41 0 0 0 1.4-1.32z"
+                  fill="#383a3c" data-color="2"></path>
+                <path
+                  d="m43.83 17 .63-.71a2.52 2.52 0 0 0 1.76.76 1.4 1.4 0 0 0 1.5-1.36 1.34 1.34 0 0 0-1.38-1.34 2.64 2.64 0 0 0-1.58.62l-.56-.16.7-4h3.5v1h-2.72l-.34 1.93a2.45 2.45 0 0 1 1.13-.28 2.29 2.29 0 0 1 2.34 2.27A2.37 2.37 0 0 1 46.26 18a3.41 3.41 0 0 1-2.43-1z"
+                  fill="#383a3c" data-color="2"></path>
+                <path d="M62.94.2a.6.6 0 0 1 .59.59.59.59 0 0 1-.59.6.6.6 0 0 1-.59-.6.6.6 0 0 1 .59-.59z"
+                  fill="#383a3c" data-color="2"></path>
+                <path d="M62.94 2a.6.6 0 1 1-.59.59.6.6 0 0 1 .59-.59z" fill="#FFFFFF" data-color="2"></path>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div class="bottom-svg text-center">
+        <svg class="left-block" preserveAspectRatio="none" data-bbox="10.305 4.552 131.804 131.5"
+          xmlns="http://www.w3.org/2000/svg" viewBox="10.305 4.552 131.804 131.5" role="presentation" aria-hidden="true"
+          fill="#9437ff">
+          <g>
+            <path d="M142.109 136.052H10.305V4.552l131.804 131.5z"></path>
+          </g>
+        </svg>
+
+        <svg class="right-block" preserveAspectRatio="none" data-bbox="10.305 4.552 131.804 131.5"
+          xmlns="http://www.w3.org/2000/svg" viewBox="10.305 4.552 131.804 131.5" role="presentation" aria-hidden="true"
+          fill="#9437ff">
+          <g>
+            <path d="M142.109 136.052H10.305V4.552l131.804 131.5z"></path>
+          </g>
+        </svg>
+      </div>
+    </section>
+
+    <section class="mini-info-4">
+      <div class="row w-100">
+        <div class="col-12 info-4">
+          <h2 class="text-center fw-light"><span>İş Hayatına Hazırlayan<br>
+              <span class="text-center fw-semibold">İş Dünyası Eğitim Paketi<br> Kısa Süreliğine ÜCRETSİZ</span>
+          </h2>
+          <br>
+          <p class="text-center fw-normal">Türkiye’nin en büyük kurumsal eğitim platformu Enocta işbirliğiyle
+            oluşturulan<br> İş Dünyası Eğitim Paketi en çok tercih edilen eğitimlerden derlendi.
+          </p>
+          <div class="text-center">
+            <button type="button" name="myButton" class="mini-info4-button">KAYIT OLUN</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container-fluid bottom-navbar w-100">
+      <div class="row">
+        <div class="col-3">
+          <div class="container-box-1">
+            <h5 class="bottom-footer">
+              <svg class="footer-logo mb-4" preserveAspectRatio="xMidYMid meet" data-bbox="0 -0.003 72 18.01"
+                viewBox="0 -0.003 72 18.01" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation"
+                aria-hidden="true">
+                <g>
+                  <g>
+                    <path d="M0 0v18a9 9 0 0 0 9-9V0z" fill="#FFFFFF" data-color="1"></path>
+                    <path fill="#FFFFFF" d="M9 18h9L9 9v9z" data-color="1"></path>
+                    <path fill="#FFFFFF" d="M27 0h-9L9 9h9l9-9z" data-color="1"></path>
+                    <path fill="#FFFFFF" d="M18 18h9l-9-9v9z" data-color="1"></path>
+                    <path d="M32.66.2h1.2v3.24L36.7.2h1.53L35.1 3.6l3.28 3.6h-1.56l-3-3.46V7.2h-1.2z" fill="#FFFFFF"
+                      data-color="2"></path>
+                    <path d="M42.11 0h.1l3.29 7.2h-1.25l-.5-1.2h-3.18l-.5 1.22h-1.25zm1.25 5-1.2-2.89L41 5z"
+                      fill="#FFFFFF" data-color="2"></path>
+                    <path d="M46.26 0h.1l3.22 3.56L52.8 0h.1v7.2h-1.18V2.83l-2.09 2.31h-.11l-2.08-2.31V7.2h-1.18z"
+                      fill="#FFFFFF" data-color="2"></path>
+                    <path
+                      d="M54.22.2h2.18c1.71 0 2.72 1 2.72 2.32s-1 2.31-2.73 2.31h-1V7.2h-1.2zm2.11 3.67c1.06 0 1.58-.59 1.58-1.35s-.53-1.36-1.58-1.36h-.91v2.71z"
+                      fill="#FFFFFF" data-color="2"></path>
+                    <path d="M60.08 4.51V.2h1.2v4.31a1.66 1.66 0 1 0 3.32 0V.2h1.2v4.31a2.86 2.86 0 0 1-5.72 0z"
+                      fill="#FFFFFF" data-color="2"></path>
+                    <path
+                      d="m66.6 5.92.79-.64a2.24 2.24 0 0 0 2 1.09c.9 0 1.43-.42 1.43-1s-.72-1-1.47-1.26c-1-.39-2.15-.8-2.15-2.16C67.15.77 68 0 69.4 0a2.69 2.69 0 0 1 2.29 1.1l-.76.62A1.83 1.83 0 0 0 69.42 1c-.74 0-1.13.33-1.13.83s.59.85 1.47 1.2S72 3.9 72 5.24s-1.09 2.1-2.6 2.1a3.18 3.18 0 0 1-2.8-1.42z"
+                      fill="#FFFFFF" data-color="2"></path>
+                    <path
+                      d="m32.37 17 .63-.7a2.42 2.42 0 0 0 1.71.76 1.4 1.4 0 0 0 1.51-1.35 1.37 1.37 0 0 0-1.47-1.36 1.93 1.93 0 0 0-.64.09l-.29-.21 1.54-2.42h-2.48v-1h4.21v.08l-1.69 2.62a2.27 2.27 0 0 1 1.91 2.21A2.36 2.36 0 0 1 34.78 18a3.38 3.38 0 0 1-2.41-1z"
+                      fill="#FFFFFF" data-color="2"></path>
+                    <path
+                      d="M38.15 15.69a2.68 2.68 0 0 1 .6-1.62L41 10.84h1.2l-1.77 2.64h.31a2.33 2.33 0 0 1 2.36 2.26A2.4 2.4 0 0 1 40.57 18a2.36 2.36 0 0 1-2.42-2.31zm3.82 0a1.37 1.37 0 1 0-1.37 1.35 1.41 1.41 0 0 0 1.4-1.32z"
+                      fill="#FFFFFF" data-color="2"></path>
+                    <path
+                      d="m43.83 17 .63-.71a2.52 2.52 0 0 0 1.76.76 1.4 1.4 0 0 0 1.5-1.36 1.34 1.34 0 0 0-1.38-1.34 2.64 2.64 0 0 0-1.58.62l-.56-.16.7-4h3.5v1h-2.72l-.34 1.93a2.45 2.45 0 0 1 1.13-.28 2.29 2.29 0 0 1 2.34 2.27A2.37 2.37 0 0 1 46.26 18a3.41 3.41 0 0 1-2.43-1z"
+                      fill="#FFFFFF" data-color="2"></path>
+                    <path d="M62.94.2a.6.6 0 0 1 .59.59.59.59 0 0 1-.59.6.6.6 0 0 1-.59-.6.6.6 0 0 1 .59-.59z"
+                      fill="#FFFFFF" data-color="2"></path>
+                    <path d="M62.94 2a.6.6 0 1 1-.59.59.6.6 0 0 1 .59-.59z" fill="#FFFFFF" data-color="2"></path>
+                  </g>
+                </g>
+              </svg>
+            </h5>
+            <ul class="nav flex-column nav-bottom-item">
+              <li class="nav-item-adress">
+                <p class="px-0">
+                  <span class="text-white fw-bold">Adres :<br></span>
+                  <span>Smart Plaza B Blok Rüzgarlıbahçe Mh. Kavak
+                    Sk. No:31/1 Kat:3 34805<br>
+                    Kavacık, Beykoz, İstanbul</span>
+                </p>
+              </li>
+              <li class="nav-item-adress">
+                <p class="px-0">
+                  <span class="text-white fw-bold">E-posta :<br></span>
+                  <a href="mailto:iletisim@kampus365.com">iletisim@kampus365.com</a>
+                </p>
+              </li>
+              <li class="nav-item-adress">
+                <p class="px-0">
+                  <span class="text-white fw-bold">Telefon :<br></span>
+                  <span>+90 (216) 445 07 25</span>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="container-box-2">
+            <h5 class="bottom-footer">BİREYSEL</h5>
+            <ul class="nav nav-bottom-item flex-column">
+              <li class="nav-item"><a href="#" class="nav-link px-0">Dev Kampüs</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-0">Ekstra Kampüs</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-0">Tüm Eğitimler</a></li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="col-3">
+          <div class="container-box-3">
+            <h5 class="bottom-footer">KURUMSAL</h5>
+            <ul class="nav nav-bottom-item flex-column">
+              <li class="nav-item"><a href="#" class="nav-link px-0">Üniversite</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-0">K12</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-0">Ana Okulu</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-0">Özel Kurs / Eğitim</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-0">Tüm Ürünler</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container col-3">
+          <div class="container-box-4">
+            <h5 class="bottom-footer">KAMPÜS 365</h5>
+            <ul class="nav flex-column nav-bottom-item">
+              <li class="nav-item"><a href="#" class="nav-link px-0">Bireysel İletişim</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-0">Kurumsal İletişim</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-0">Hakkımızda</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-0">Haberler</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-0">Destek</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-0">KVKK</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-0">İletişim Onay Metni</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-0">Kullanım Koşulları</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-lastbar container-fluid">
+      <nav class="navbar">
+        <div class="d-inline-flex justify-content-between">
+          <ul class="nav navbar-nav d-inline-flex">
+            <li class="nav-item">
+              <ul class="list-inline-mb-0">
+                <li class="list-inline-item">
+                  <a href="">
+                    <img alt="Facebook" style="width: 40px; height: 40px; object-fit: cover;"
+                      src="https://static.wixstatic.com/media/e0678ef25486466ba65ef6ad47b559e1.png/v1/fill/w_50,h_50,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e0678ef25486466ba65ef6ad47b559e1.png">
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="">
+                    <img alt="Twitter" style="width: 40px; height: 40px; object-fit: cover;"
+                      src="https://static.wixstatic.com/media/c4392d634a0148fda8b7b2b0ad98293b.png/v1/fill/w_50,h_50,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c4392d634a0148fda8b7b2b0ad98293b.png">
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="">
+                    <img alt="LinkedIn" style="width: 40px; height: 40px; object-fit: cover;"
+                      src="https://static.wixstatic.com/media/f61c7a3b4b4947b28511a25034973383.png/v1/fill/w_50,h_50,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/f61c7a3b4b4947b28511a25034973383.png">
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="">
+                    <img alt="Instagram" style="width: 40px; height: 40px; object-fit: cover;"
+                      src="https://static.wixstatic.com/media/da7ef6dd1302486c9a67baebe4b364bc.png/v1/fill/w_50,h_50,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/da7ef6dd1302486c9a67baebe4b364bc.png">
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="">
+                    <img alt="YouTube" style="width: 40px; height: 40px; object-fit: cover;"
+                      src="https://static.wixstatic.com/media/e9bb463a1bc4434c9d33b81b1fe937f5.png/v1/fill/w_50,h_50,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e9bb463a1bc4434c9d33b81b1fe937f5.png">
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul class="nav list-inline">
+            <li class="list-inline-item text-end">2001-2022 © Tüm hakları saklıdır<br>
+              Kampüs 365</li>
+          </ul>
+        </div>
+    </div>
+    </nav>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
